@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+h2{
+    padding-top: 20px;
+}
+
+
+
+li{
+    list-style: none;
+}
+
+p{
+    display: inline-block;
+    padding: 8px;
+    background-color: #f1f1f1;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.underSyl{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.weeks{
+    width: 20%;
+}
+
+.underSyl .weeks .weekno{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+} 
+
+.plans{
+    width:75%
+}
+
+.plans ul li h3{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.plans ul li h3 em{
+    font-style: normal;
+    font-weight: 400;
+}
+.plans .contents{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plans .contents li{
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+.plans .contents li p a{
+    color: black;
+    font-weight: 500;
+}
+
+.plans .contents .slides{
+    background-color: plum;
+}
+.plans .contents .starter{
+    background-color: skyblue;
+}
+.plans .contents .check{
+    background-color: lightcoral;
+}
+.plans .contents .solution{
+    background-color: greenyellow;
+}
+
+.weeks .weekno .w1{
+    margin-bottom: 48px;
+}
+.weeks .weekno .w2{
+    margin-bottom: 115px;
+}
+.weeks .weekno .w3{
+    margin-bottom: 55px;
+}
+.weeks .weekno .w4{
+    margin-bottom: 50px;
+}
+.weeks .weekno .w5{
+    margin-bottom: 60px;
+}
+.weeks .weekno .w6{
+    margin-bottom: 50px;
+}
+.weeks .weekno .w7{
+    margin-bottom: 50px;
+}
+.weeks .weekno .w8{
+    margin-bottom: 5px;
+}
+
+.plans ul li .w8T{
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+.plans ul li .w9T{
+    margin-bottom: 20px;
+}
+
+/* .plans .contents li  */
